@@ -4076,9 +4076,12 @@ blockquote cite::before {
   color: var(--bd-common-black);
   text-transform: uppercase;
   font-weight: 500;
+  
 }
 .bd-footer__copyright.bd-border-top {
   border-top: 1px solid #bfcddb;
+  text-align: center;
+  font-size: 12px;
 }
 
 /* footer col design for home 1 */
