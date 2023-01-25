@@ -173,7 +173,7 @@
             <div class="mobile-menu fix mb-40"></div>
 
             <div class="offcanvas__map d-none d-lg-block mb-15">
-               <h4>HEAD OFFİCE</h4>
+               <h4>HEAD OFFICE</h4>
                <br>
                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.6076282160316!2d29.10288491488228!3d40.99007192849475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac6259959db87%3A0x2401e4deb563ec42!2zQcSfYW_En2x1IE15IE9mZmljZQ!5e0!3m2!1str!2str!4v1674554017313!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -199,7 +199,7 @@
                         <i class="fal fa-envelope"></i>
                      </div>
                      <div class="offcanvas__contact-text">
-                        <a href="mailto:admin@guisetech.com">admin@guisetech.com</a>
+                         <a id="email">socials@guisetech.com</a>
                      </div>
                   </li>
                </ul>
@@ -853,6 +853,12 @@
    <script src="assets/js/imagesloaded-pkgd.js"></script>
    <script src="assets/js/ajax-form.js"></script>
    <script src="assets/js/main.js"></script>
+   <script>
+
+      const eMail='socials@guisetech.com'
+      document.getElementById('email').setAttribute('href','mailto:'+eMail)
+   </script>
+   
 </body>
 
 </html>
