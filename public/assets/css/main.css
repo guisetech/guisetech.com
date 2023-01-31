@@ -2130,7 +2130,7 @@ input[type=color] {
 }
 .bd-feature__section::after {
   content: "";
-  background-color: #e2ebf4;
+  /* background-color: #e2ebf4; */
   position: absolute;
   top: 0;
   right: 0;
