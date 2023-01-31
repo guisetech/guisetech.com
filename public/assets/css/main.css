@@ -4040,6 +4040,38 @@ blockquote cite::before {
   background: var(--bd-theme-primary);
   color: var(--bd-common-white);
 }
+
+.bd-footer-widget__content{
+  display: flex;
+}
+
+.bd-footer-widget__content>div{
+  display: inline-block;
+  
+}
+
+.bd-footer-widget__content ul{
+  display:grid;
+  
+}
+.bd-footer-widget__content ul li a{
+  width: max-content;
+
+}
+
+
+
+.second-column ol{
+  list-style-type: none;
+}
+
+.second-column ol li a:hover{
+  color: var(--bd-theme-primary);
+}
+
+.second-column .projects{
+  list-style: none;
+}
 .bd-footer-widget__menu ul li {
   list-style: none;
   margin-bottom: 10px;
