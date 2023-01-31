@@ -4002,6 +4002,10 @@ blockquote cite::before {
   
 }
 
+.contact-info p{
+  text-align: justify;
+}
+
 
 /*----------------------------------------*/
 /* 16. FOOTER CSS 
