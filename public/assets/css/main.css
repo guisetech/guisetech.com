@@ -2372,10 +2372,14 @@ input[type=color] {
 }
 .bd-team-3__img img {
   -webkit-transition: all 0.3s ease-out 0s;
+  -webkit-filter: grayscale(100%);
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+}
+.bd-team-3__img img:hover{
+  -webkit-filter: grayscale(0);
 }
 .bd-team-3__social {
   position: absolute;
