@@ -4018,6 +4018,45 @@ blockquote cite::before {
   position: relative;
 }
 
+
+
+/*--------------------*/
+/*----MyChanges-----*/
+
+.social a{
+  display: inline-block;
+  width: 40px;
+  margin-right: 5px;
+  height: 40px;
+  line-height: 42px;
+  text-align: center;
+  background: white;
+  color: var(--bd-text-body);
+}
+
+.social a:hover{
+  background-color: #2D314B;
+  color: #fff;
+  transition: all 0.3s ease-out 0s;
+}
+.locations{
+
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.head-office iframe{
+  display: inline-block;
+  padding-right: 20px;
+  
+}
+
+.contact-info p{
+  text-align: justify;
+}
+
+
 /*----------------------------------------*/
 /* 16. FOOTER CSS 
 /*----------------------------------------*/

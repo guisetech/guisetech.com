@@ -79,32 +79,68 @@
                   <div class="main-menu">
                     <nav id="mobile-menu">
                       <ul>
-                        <li>
-                          <a href="#">Home</a>
+                        <li class="has-dropdown">
+                          <a href="index-3.html">Home</a>
+                          <ul class="submenu">
+                            <li><a href="index.html">Home Style 1</a></li>
+                            <li><a href="index-2.html">Home Style 2</a></li>
+                            <li><a href="index-3.html">Home Style 3</a></li>
+                          </ul>
                         </li>
                         <li>
                           <a href="about.html">About</a>
                         </li>
                         <li class="has-dropdown">
-                          <a href="#">Projects</a>
+                          <a href="portfolio.html">Projects</a>
                           <ul class="submenu">
+                            <li><a href="portfolio.html">Projects V1</a></li>
+                            <li><a href="portfolio-2.html">Projects V2</a></li>
                             <li>
-                              <a href="projects/software/index.html"
-                                >Software Projects</a
+                              <a href="portfolio-details.html"
+                                >Projects Details V1</a
                               >
                             </li>
                             <li>
-                              <a href="projects/architecture/index.html"
-                                >Architecture Projects</a
-                              >
+                              <a href="portfolio-details-2.html"
+                                >Projects Details V2
+                              </a>
+                            </li>
+                            <li>
+                              <a href="portfolio-details-3.html"
+                                >Projects Details V3
+                              </a>
+                            </li>
+                            <li>
+                              <a href="portfolio-details-4.html"
+                                >Projects Details V4
+                              </a>
                             </li>
                           </ul>
                         </li>
 
-                        <li>
-                          <a href="services.html">Services</a>
+                        <li class="has-dropdown">
+                          <a href="services.html">Servics</a>
+                          <ul class="submenu">
+                            <li><a href="services.html">services</a></li>
+                            <li>
+                              <a href="services-details.html"
+                                >Services details</a
+                              >
+                            </li>
+                          </ul>
                         </li>
-
+                        <li class="has-dropdown">
+                          <a href="blog.html">Blog</a>
+                          <ul class="submenu">
+                            <li><a href="blog.html">Blog V1</a></li>
+                            <li><a href="blog-2.html">Blog V2</a></li>
+                            <li><a href="blog-3.html">Blog V3</a></li>
+                            <li><a href="blog-4.html">Blog V4</a></li>
+                            <li>
+                              <a href="blog-details.html">Blog Details</a>
+                            </li>
+                          </ul>
+                        </li>
                         <li>
                           <a href="contact.html">Contact</a>
                         </li>
@@ -251,9 +287,9 @@
               >
                 <h3 class="breadcrumb__title">Contact</h3>
                 <div class="breadcrumb__list">
-                  <span><a href="#">Home</a></span>
+                  <span><a href="index.html">Home</a></span>
                   <span class="dvdr">/</span>
-                  <span>Contact</span>
+                  <span><a href="contact.html">Contact</a> </span>
                 </div>
               </div>
             </div>
@@ -262,188 +298,120 @@
       </div>
       <!-- breadcrumb area end -->
 
-      <!-- <div class="bd-contact__section pt-120 pb-90">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-8">
-                  <div class="postbox__comment-form mb-30">
-                     <h3 class="postbox__comment-form-title">Write a comment</h3>
-                     <form action="#">
-                        <div class="row">
-                           <div class="col-xxl-6 col-xl-6 col-lg-6">
-                              <div class="postbox__comment-input">
-                                 <input type="text" placeholder="Your Name">
-                              </div>
-                           </div>
-                           <div class="col-xxl-6 col-xl-6 col-lg-6">
-                              <div class="postbox__comment-input">
-                                 <input type="email" placeholder="Your Email">
-                              </div>
-                           </div>
-                           <div class="col-xxl-12">
-                              <div class="postbox__comment-input">
-                                 <input type="text" placeholder="Subject">
-                              </div>
-                           </div>
-                           <div class="col-xxl-12">
-                              <div class="postbox__comment-input">
-                                 <textarea placeholder="Enter your Message ..."></textarea>
-                              </div>
-                           </div>
-                           <div class="col-xxl-12">
-                              <div class="postbox__comment-btn">
-                                 <button type="submit" class="bd-btn">Submit</button>
-                              </div>
-                           </div>
-                        </div>
-                     </form>
-                  </div>
-               </div>
-               <div class="col-lg-4">
-                  <div class="pt-inner-sidebar theme-bg mb-30">
-                     <div class="tp-pt__inmner-step mb-30">
-                        <h4>Address</h4>
-                        <span>22 Bardeshi, Amin Bazar
-                           Savar, Dhaka</span>
-                     </div>
-                     <div class="tp-pt__inmner-step mb-30">
-                        <h4>Call us</h4>
-                        <span>+ 880 123 456 789000</span>
-                     </div>
-                     <div class="tp-pt__inmner-step mb-30">
-                        <h4>Email us</h4>
-                        <span>hello@roy.com</span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-
-      <div class="bd-contact__map">
-        <div class="container-fluid p-0">
+      <div class="bd-contact__section pt-120 pb-90">
+        <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <div class="section-title">
-                <h2>WE'D LOVE TO HEAR FROM YOU!</h2>
+            <div class="col-lg-8">
+              <div class="postbox__comment-form mb-30">
+                
+                <h2 class="section-title">WE'D LOVE TO HEAR FROM YOU!</h2>
+                <div class="contact-info">
+                  <p class="justify-text">
+                    At Guisetech, we have five locations in 2 countries to serve you.
+                    Our main office is in Istanbul/Türkiye, and the Izmir and Adana offices. 
+                    And our UK offices are in central London and the historic university town of Cambridge.
+                  </p>
+                  <p class="justify-text">
+                    If you have any questions, comments, or feedback about our
+                    software, please don't hesitate to reach out to us at either
+                    location with any questions, comments, or feedback. You can
+                    also contact us via email.
+                  </p>
+                  <p class="justify-text">We are always happy to help.</p>
+
+                  <p class="locations">Locations</p>
+
+                  <div class="locations-map">
+                    <div class="head-office">
+                      
+                        <iframe
+                         width="350"
+                         height="190"
+                         frameborder="0"
+                         scrolling="no"
+                         
+                         style="border: 0 ; box-sizing: border-box;"
+                         name="Head-Office"
+                         marginheight="0"
+                         marginwidth="0"
+                         src="https://maps.google.com/maps?width=400&amp;height=300&amp;hl=en&amp;q=My%20Office%20Atasehir+(Guisetech%20Limited)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                         >
+                        </iframe
+                      
+
+                      
+                        
+                    </div>  
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d778380.6358143406!2d-0.4190165822189436!3d51.494858994734635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2str!4v1675148961493!5m2!1sen!2str" width="350" height="190" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                 
+                </div>
+              </div>
+              </div>
+            
+          </div>
+          <div class="col-lg-4">
+            <div class="pt-inner-sidebar theme-bg mb-30">
+              <div class="tp-pt__inmner-step mb-30">
+                <h4>Address</h4>
+                <span
+                  >Barbaros Mah. Lale Sok. My Office Is Merkezi No:2/13,<br />
+                  Atasehir, Istanbul</span
+                >
               </div>
 
-              <div class="section-article">
-                <p class="justify-text">
-                  At EdgeeTech, we have two locations to serve you. Our London
-                  office is located in the heart of the city, and our Cambridge
-                  office is situated in the historic university town.
-                </p>
-                <p class="justify-text">
-                  If you have any questions, comments, or feedback about our
-                  software, please don't hesitate to reach out to us at either
-                  location with any questions, comments, or feedback. You can
-                  also contact us via email or phone.
-                </p>
-                <p class="justify-text">We are always happy to help.</p>
-
-                  <h3>E-Mail <a href="mailto:socials@guisetech.com">socials@guisetech.com</a></h3>
-
-                  <p>Don't forget to follow us on social media!</p>
-
-                  <p><a
-                     href="https://www.facebook.com/guisetech"
-                     target="_blank"
-                     ><i class="fab fa-facebook-f"></i> Facebook</a></p>
-                  <p><a href="https://twitter.com/guisetech" target="_blank"
-                     ><i class="fab fa-twitter"></i> Twitter</a></p>
-                  <p><a href="https://github.com/guisetech/" target="_blank"
-                     ><i class="fab fa-github"></i> Github</a></p>
-                  <p><a
-                     href="https://www.linkedin.com/in/guisetech/"
-                     target="_blank"
-                     ><i class="fab fa-linkedin"></i> LinkedIn</a></p>
-                  <p><a
-                     href="https://www.instagram.com/guisetechsocial/"
-                     target="_blank"
-                     ><i class="fab fa-instagram"></i> Instagram</a></p>
-
+              <div class="tp-pt__inmner-step mb-30">
+                <h4>Email us</h4>
+                <span>
+                  <a href="mailto:socials@guisetech.com"
+                    >socials@guisetech.com</a
+                  >
+                </span>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row1">
-                <iframe
-                  width="400"
-                  height="300"
-                  frameborder="0"
-                  scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                  src="https://maps.google.com/maps?width=400&amp;height=300&amp;hl=en&amp;q=My%20Office%20Atasehir+(Guisetech%20Limited)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                  ><a href="https://www.maps.ie/distance-area-calculator.html"
-                    >measure distance on map</a
-                  ></iframe
-                >
-              </div>
-              <hr />
-              <div class="row2">
-                <iframe
-                  width="200"
-                  height="200"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203659.0161841383!2d35.030706816834524!3d37.1010199546224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152863b5148e5cbf%3A0x73bafc7589a6d67e!2zw4d1a3Vyb3ZhL0FkYW5h!5e0!3m2!1str!2str!4v1672388206439!5m2!1str!2str"
-                >
-                  <a
-                    href="https://www.maps.ie/distance-area-calculator.html"
-                  ></a>
-                </iframe>
 
-                <iframe
-                  width="200"
-                  height="200"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6250.239109543353!2d27.139041523441637!3d38.438707372212434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd8437c357ec5%3A0x6888684b400dfbd4!2sAlsancak%2C%2035220%20Konak%2F%C4%B0zmir!5e0!3m2!1str!2str!4v1672157130178!5m2!1str!2str"
-                >
-                  <a
-                    href="https://www.maps.ie/distance-area-calculator.html"
-                  ></a>
-                </iframe>
-              </div>
-              <hr />
-              <div class="row3">
-                <iframe
-                  width="200"
-                  height="200"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317715.71194566035!2d-0.38178730035927805!3d51.528735194796866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2zTG9uZHJhLCBCaXJsZcWfaWsgS3JhbGzEsWs!5e0!3m2!1str!2str!4v1672157348533!5m2!1str!2str"
-                >
-                  <a
-                    href="https://www.maps.ie/distance-area-calculator.html"
-                  ></a>
-                </iframe>
-
-                <iframe
-                  width="200"
-                  height="200"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78254.2993012001!2d0.04994696651833175!3d52.198926585963605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d85d89f32a012d%3A0x63a320e1a35e3d21!2sCambridge%2C%20Birle%C5%9Fik%20Krall%C4%B1k!5e0!3m2!1str!2str!4v1672157468939!5m2!1str!2str"
-                >
-                  <a
-                    href="https://www.maps.ie/distance-area-calculator.html"
-                  ></a>
-                </iframe>
+              <div class="tp-pt__inmner-step social mb-30">
+                <h4>Social Links</h4>
+                <span
+                  ><a href="https://fb.com/guisetech" target="_blank"
+                    ><i class="fab fa-facebook"> </i></a
+                ></span>
+                <span
+                  ><a
+                    href="https://instagram.com/guisetechsocial"
+                    target="_blank"
+                    ><i class="fab fa-instagram"> </i></a
+                ></span>
+                <span
+                  ><a href="https://twitter.com/guisetech" target="_blank"
+                    ><i class="fab fa-twitter"> </i></a
+                ></span>
+                <span
+                  ><a
+                    href="https://www.linkedin.com/in/guisetech/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"> </i></a
+                ></span>
+                <span
+                  ><a href="https://www.github.com/guisetech/" target="_blank"
+                    ><i class="fab fa-github"> </i></a
+                ></span>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- <div class="bd-contact__map">
+        <div class="container-fluid p-0">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14599.577055781296!2d90.36607314999999!3d23.822358699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1664535760890!5m2!1sen!2sbd"
+            style="border: 0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div> -->
     </main>
 
     <!-- footer area start -->
@@ -461,73 +429,49 @@
                   </h3>
                   <div class="bd-footer-widget__content">
                     <p>
-                      Understanding The Technologies & Delivering The Skills That Add Value To Your Team
-                    </p>
-                    <!-- <p>
                       Lorem ipsum dolor Lorem ipsum dolor sit tur adipisicing
                       elit, sed do eiusmod tempor iut labore et dolore magna
                       aliqua.
-                    </p> -->
+                    </p>
                     <div class="bd-footer-widget__form">
-                      <p>
-                        <i class="fa fa-map-marker-alt">
-                          
-                        </i>
-                         Ataşehir/İstanbul,Turkiye
-                         
-                      </p>
-                      <!-- <form>
+                      <form>
                         <input type="email" placeholder="Your email here" />
                         <button>Subscribe</button>
-                      </form> -->
+                      </form>
                     </div>
                     <div class="bd-footer-widget__social">
-                     <span
-                     ><a
-                       href="https://www.facebook.com/guisetech"
-                       target="_blank"
-                       ><i class="fab fa-facebook-f"></i></a
-                   ></span>
-                   <span
-                     ><a href="https://twitter.com/guisetech" target="_blank"
-                       ><i class="fab fa-twitter"></i></a
-                   ></span>
-                   <span
-                     ><a href="https://github.com/guisetech/" target="_blank"
-                       ><i class="fab fa-github"></i></a
-                   ></span>
-                   <span
-                     ><a
-                       href="https://www.linkedin.com/in/guisetech/"
-                       target="_blank"
-                       ><i class="fab fa-linkedin"></i></a
-                   ></span>
-                   <span
-                     ><a
-                       href="https://www.instagram.com/guisetechsocial/"
-                       target="_blank"
-                       ><i class="fab fa-instagram"></i></a
-                   ></span>
+                      <span
+                        ><a href="#"><i class="fab fa-facebook-f"></i></a
+                      ></span>
+                      <span
+                        ><a href="#"><i class="fab fa-twitter"></i></a
+                      ></span>
+                      <span
+                        ><a href="#"><i class="fab fa-youtube"></i></a
+                      ></span>
+                      <span
+                        ><a href="#"><i class="fab fa-linkedin"></i></a
+                      ></span>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="bd-footer-widget footer-col-4">
-                  <h3 class="bd-footer-widget__title">Menu</h3>
+                <div class="bd-footer-widget footer-col-2">
+                  <h3 class="bd-footer-widget__title">Quick Links</h3>
                   <div class="bd-footer-widget__content">
                     <div class="bd-footer-widget__menu">
                       <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <!-- <li><a href="#">Advertisements</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Customer Care</a></li>
+                        <li><a href="#">Pricing Plans</a></li>
+                        <li><a href="#">Team Members</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Advertisements</a></li>
                         <li><a href="#">Return Policy</a></li>
                         <li><a href="#">Affiliation</a></li>
-                        <li><a href="#">Terms of Use</a></li> -->
+                        <li><a href="#">Terms of Use</a></li>
                       </ul>
                     </div>
                   </div>
@@ -535,25 +479,9 @@
               </div>
               <div class="col-lg-4">
                 <div class="bd-footer-widget footer-col-3">
-                  <h3 class="bd-footer-widget__title">Social Media</h3>
+                  <h3 class="bd-footer-widget__title">Recent Posts</h3>
                   <div class="bd-footer-widget__content">
-                    <p><a
-                      href="https://www.facebook.com/guisetech"
-                      target="_blank"
-                      ><i class="fab fa-facebook-f"></i> Facebook</a></p>
-                   <p><a href="https://twitter.com/guisetech" target="_blank"
-                      ><i class="fab fa-twitter"></i> Twitter</a></p>
-                   <p><a href="https://github.com/guisetech/" target="_blank"
-                      ><i class="fab fa-github"></i> Github</a></p>
-                   <p><a
-                      href="https://www.linkedin.com/in/guisetech/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin"></i> LinkedIn</a></p>
-                   <p><a
-                      href="https://www.instagram.com/guisetechsocial/"
-                      target="_blank"
-                      ><i class="fab fa-instagram"></i> Instagram</a></p>
-                    <!-- <div
+                    <div
                       class="bd-footer-widget__blog d-flex align-items-center mb-30"
                     >
                       <div class="bd-footer-widget__blog-thum mr-30">
@@ -570,8 +498,8 @@
                         </h3>
                         <span>Aug 28, 2017</span>
                       </div>
-                    </div> -->
-                    <!-- <div
+                    </div>
+                    <div
                       class="bd-footer-widget__blog d-flex align-items-center mb-30"
                     >
                       <div class="bd-footer-widget__blog-thum mr-30">
@@ -588,7 +516,7 @@
                         </h3>
                         <span>Aug 28, 2017</span>
                       </div>
-                    </div> -->
+                    </div>
                   </div>
                 </div>
               </div>
@@ -596,10 +524,7 @@
           </div>
           <div class="bd-footer__copyright bd-border-top pt-40 pb-40">
             <span
-              ><a href="https://guisetech.com"
-                ><span id="date">2023</span>© Guisetech Limited</a
-              >, Registered in Turkiye. Guisetech Limited (Registered Number
-              (VKN): 4111087362). All Right Reserved.
+              >All rights reserved © 2022 <a href="index.html">eThemeStudio</a>
             </span>
           </div>
         </div>
