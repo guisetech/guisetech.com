@@ -1,48 +1,52 @@
-const blogs = [
+const blogPosts = [
   {
-    title: "Learning Javascript",
-    date: new Date(2018, 11, 12),
+    title: "Metaverse Architecture",
+    date: new Date(2023, 0, 20),
+    slug: "metaverse-architecture.html",
+    imageUrl: "assets/img/footer/metaverse-architecture-tile.jpg",
+    author: "Selin Ozyurt",
   },
   {
-    title: "Learning CSS",
-    date: new Date(2019, 7, 01),
-  },
-  {
-    title: "Learning React",
-    date: new Date(2020, 11, 12),
-  },
-  {
-    title: "Learning ASP.NET MVC CORE",
-    date: new Date(2021, 6, 19),
-  },
-  {
-    title: "Learning C#",
-    date: new Date(2021, 6, 20),
-  },
-  {
-    title: "Learning PHP",
-    date: new Date(2021, 11, 19),
+    title: "Most Common Css Selectors",
+    date: new Date(2023, 0, 07),
+    slug: "most-common-css-selectors.html",
+    imageUrl: "assets/img/footer/css-selectors-tile.jpeg",
+    author: "Onur Rozet",
   },
 ];
 
-const firstTitle = document.getElementById("one-title");
-const firstDate = document.getElementById("one-date");
+const blogItemTemplate = (
+  imageUrl,
+  title,
+  slug,
+  date
+) => `<a href="blog/${slug}">
+<div class="bd-footer-widget__blog d-flex align-items-center mb-30">
+<div class="bd-footer-widget__blog-thum mr-30 box-shadow-4px border-radius">
+  <img class="border-radius"
+    src="${imageUrl}"
+    alt="${title}" />
+</div>
+<div class="bd-footer-widget__blog-content">
+  <h3 class="bd-footer-widget__blog-title">
+    <span>${title}</span>
+  </h3>
+  <span>${date?.toDateString()}</span>
+</div>
+</div>
+</a>`;
 
-const secondTitle = document.getElementById("second-title");
-const secondDate = document.getElementById("second-date");
+const blogPostContainerDiv = document.getElementById("recentBlogPosts");
 
-let arr = Object.values(blogs);
+if (blogPostContainerDiv && blogPosts?.length > 0) {
+  blogPostContainerDiv.innerHTML = "";
 
-let arrSort = arr.sort((a, b) => {
-  return new Date(b.date) - new Date(a.date);
-});
-
-for (const key in arrSort) {
-  const element = arrSort[0];
-  firstTitle.innerHTML = element.title;
-  firstDate.innerHTML = element.date.toDateString();
-
-  const element1 = arrSort[1];
-  secondTitle.innerHTML = element1.title;
-  secondDate.innerHTML = element1.date.toDateString();
+  for (const blogItem of blogPosts) {
+    blogPostContainerDiv.innerHTML += blogItemTemplate(
+      blogItem.imageUrl,
+      blogItem.title,
+      blogItem.slug,
+      blogItem.date
+    );
+  }
 }
