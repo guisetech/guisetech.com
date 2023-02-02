@@ -4018,12 +4018,10 @@ blockquote cite::before {
   position: relative;
 }
 
-
-
 /*--------------------*/
 /*----MyChanges-----*/
 
-.social a{
+.social a {
   display: inline-block;
   width: 40px;
   margin-right: 5px;
@@ -4034,28 +4032,24 @@ blockquote cite::before {
   color: var(--bd-text-body);
 }
 
-.social a:hover{
-  background-color: #2D314B;
+.social a:hover {
+  background-color: #2d314b;
   color: #fff;
   transition: all 0.3s ease-out 0s;
 }
-.locations{
-
+.locations {
   font-size: 20px;
   font-weight: 600;
-
 }
 
-.head-office iframe{
+.head-office iframe {
   display: inline-block;
   padding-right: 20px;
-  
 }
 
-.contact-info p{
+.contact-info p {
   text-align: justify;
 }
-
 
 /*----------------------------------------*/
 /* 16. FOOTER CSS 
@@ -4223,7 +4217,10 @@ blockquote cite::before {
   box-shadow: 4px 4px 4px lightblue;
 }
 
-.border-radius{
+.border-radius {
   border-radius: 10px;
+}
 
+.text-align-center {
+  text-align: center;
 }
