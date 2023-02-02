@@ -4051,6 +4051,13 @@ blockquote cite::before {
   text-align: justify;
 }
 
+.bd-services-2__item img{
+  border-radius: 50px;
+  margin-bottom: 10px;
+  width: 120px;
+}
+
+
 /*----------------------------------------*/
 /* 16. FOOTER CSS 
 /*----------------------------------------*/
