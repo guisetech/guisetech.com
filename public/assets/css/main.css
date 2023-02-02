@@ -2119,9 +2119,14 @@ input[type="color"] {
 .bd-services-2__title a:hover {
   background-size: 0% 1px, 100% 1px;
 }
+
 .bd-services-2__content p {
   margin-bottom: 30px;
   text-align: justify;
+
+  
+  
+
 }
 
 .bd-section__inner-list ul li {
@@ -4057,6 +4062,7 @@ blockquote cite::before {
   margin-bottom: 10px;
   width: 120px;
 }
+
 
 
 /*----------------------------------------*/
