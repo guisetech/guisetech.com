@@ -2404,9 +2404,9 @@ input[type="color"] {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-/* .bd-team-3__img img:hover{
+.bd-team-3__img img:hover {
   -webkit-filter: grayscale(0);
-} */
+}
 .bd-team-3__social {
   position: absolute;
   bottom: 0;
