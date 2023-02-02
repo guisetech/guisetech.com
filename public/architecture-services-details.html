@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>INC. - Minimal Creative Agency Website HTML Template</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/logo/favicon.png"
+    />
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
+    <link rel="stylesheet" href="assets/css/backtotop.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css" />
+    <link rel="stylesheet" href="assets/css/spacing.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- pre loader area start -->
+    <div class="bd-preloader">
+      <div class="bd-preloader__center">
+        <span>
+          <img src="assets/img/logo/logo.png" alt="" />
+        </span>
+      </div>
+    </div>
+    <!-- pre loader area end -->
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- back to top end -->
+
+    <!-- back to top end -->
+
+    <!-- header area start -->
+    <header>
+      <div class="bd-header__section bd-header__transparent">
+        <div class="bd-header__main" id="header-sticky">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-2 col-md-6 col-6">
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="assets/img/logo/logo.png" alt="logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-10 col-md-6 col-6">
+                <div class="d-flex justify-content-end">
+                  <div class="main-menu">
+                    <nav id="mobile-menu">
+                      <ul>
+                        <li>
+                          <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                          <a href="about.html">About</a>
+                        </li>
+                        <li class="has-dropdown">
+                          <a href="#">Projects</a>
+                          <ul class="submenu">
+                            <li>
+                              <a href="projects/software/index.html"
+                                >Software Projects</a
+                              >
+                            </li>
+                            <li>
+                              <a href="projects/architecture/index.html"
+                                >Architecture Projects</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="has-dropdown">
+                          <a href="#">Services</a>
+                          <ul class="submenu">
+                            <li>
+                              <a href="software-services-details.html"
+                                >Software Services</a
+                              >
+                            </li>
+                            <li>
+                              <a href="architecture-services-details.html"
+                                >Architecture Services</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li>
+                          <a href="contact.html">Contact</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div
+                    class="bd-header__main-right d-flex justify-content-end align-items-center pl-30"
+                  >
+                    <div class="bd-header__search d-none d-md-block p-relative">
+                      <div class="bd-header__search-wrapper">
+                        <button class="bd-header__search-btn">
+                          <i class="fal fa-search"></i>
+                        </button>
+                        <button class="bd-header__search-btn-close">
+                          <i class="fal fa-times"></i>
+                        </button>
+                      </div>
+                      <div class="bd-header__search-form">
+                        <form>
+                          <input type="text" placeholder="Search Here" />
+                          <button><i class="fal fa-search"></i></button>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="bd-header__hamburger ml-50">
+                      <button
+                        type="button"
+                        class="hamburger-btn offcanvas-open-btn"
+                      >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header area end -->
+
+   <!-- offcanvas area start -->
+   <div class="offcanvas__area">
+    <div class="offcanvas__wrapper">
+      <div class="offcanvas__content">
+        <div
+          class="offcanvas__top mb-40 d-flex justify-content-between align-items-center"
+        >
+          <div class="offcanvas__logo logo">
+            <a href="index.html">
+              <img src="assets/img/logo/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="offcanvas__close">
+            <button class="offcanvas__close-btn offcanvas-close-btn">
+              <i class="fal fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <div class="offcanvas__search mb-25">
+          <form action="#">
+            <input type="text" placeholder="What are you searching for?" />
+            <button type="submit"><i class="far fa-search"></i></button>
+          </form>
+        </div>
+        <div class="mobile-menu fix mb-40"></div>
+
+        <div class="offcanvas__map d-none d-lg-block mb-15">
+          <h4>HEAD OFFICE</h4>
+          <br />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.6076282160316!2d29.10288491488228!3d40.99007192849475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac6259959db87%3A0x2401e4deb563ec42!2zQcSfYW_En2x1IE15IE9mZmljZQ!5e0!3m2!1str!2str!4v1674554017313!5m2!1str!2str"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="offcanvas__contact mt-30 mb-20">
+          <h4>Contact Info</h4>
+          <ul>
+            <li class="d-flex align-items-center">
+              <div class="offcanvas__contact-icon mr-15">
+                <i class="fal fa-map-marker-alt"></i>
+              </div>
+              <div class="offcanvas__contact-text">
+                <a
+                  target="_blank"
+                  href="https://goo.gl/maps/PymLpa7easEGwkp26"
+                >
+                  Barbaros Mah. Lale Sok. My Office Is Merkezi No:2/13,
+                  Atasehir, Istanbul
+                </a>
+              </div>
+            </li>
+
+            <li class="d-flex align-items-center">
+              <div class="offcanvas__contact-icon mr-15">
+                <i class="fal fa-envelope"></i>
+              </div>
+              <div class="offcanvas__contact-text">
+                <a
+                  href="&#109;a&#105;l&#116;&#111;:&#115;&#111;&#99;&#105;&#97;&#108;&#115;&#64;&#103;&#117;&#105;&#115;&#101;&#116;&#101;&#99;&#104;&#46;&#99;&#111;&#109;&#46;&#116;&#114;"
+                  >socials@guisetech.com.tr</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="offcanvas__social">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/guisetech" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/guisetech" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/guisetech/" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/guisetech/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/guisetechsocial/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="body-overlay"></div>
+  <!-- offcanvas area end -->
+
+    <main>
+      <!-- breadcrumb area start -->
+      <div
+        class="breadcrumb__section include-bg"
+        data-background="assets/img/breadcrumb/page-header-bg.jpg"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-12">
+              <div
+                class="breadcrumb__content d-md-flex justify-content-between align-items-center"
+              >
+                <h3 class="breadcrumb__title">Architecture Services</h3>
+                <div class="breadcrumb__list">
+                  <span><a href="index.html">Home</a></span>
+                  <span class="dvdr">/</span>
+                  <span>services</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- breadcrumb area end -->
+
+      <div class="container mt-30">
+         <div class="bd-about__inner-content">
+            <div class="row gx-1">
+              <div class="col-lg-6">
+                <div>
+                  <img src="assets/img/services/square/architecture.jpg" style="height: 500px; width:1116px;" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div>
+                  <img
+                    src="assets/img/services/square/consultancy-service-2.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="bd-services-2__area pt-120 pb-90">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="bd-services-2__item text-center mb-30 wow fadeInUp">
+                <h3 class="bd-services-2__title">
+                  <a href="services-details.html">Consept Design</a>
+                </h3>
+                <img src="assets/img/services/building_d1.webp" alt="">
+                <div class="bd-services-2__content">
+                  <p>
+                    Our web application development service helps businesses of
+                    all sizes create custom, user-friendly web applications that
+                    solve complex problems and drive growth.
+                  </p>
+                  <p>
+                    From idea to launch, we work closely with you to understand
+                    your business needs and develop a solution that meets your
+                    specific requirements. Our team of experienced developers
+                    uses the latest technologies and best practices to create
+                    robust, scalable, and secure web applications that deliver a
+                    seamless user experience.
+                  </p>
+                  
+
+              
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="bd-services-2__item text-center mb-30 wow fadeInUp">
+                <h3 class="bd-services-2__title">
+                  <a href="services-details.html">Architectural Consultancy</a>
+                </h3>
+               
+                <img src="assets/img/services/yazilim-mimari-1024x683-1-1024x500.jpg" alt="">
+                <div class="bd-services-2__content">
+                  <p>
+                    Our DevOps development service helps businesses of all sizes
+                    accelerate their software delivery process and improve the
+                    reliability and security of their systems. competition.
+                  </p>
+                  <p>
+                    By automating and optimizing the development, testing, and
+                    deployment of software, we can help you release new features
+                    and updates faster and more frequently, while minimizing
+                    downtime and errors. Our team of experienced professionals
+                    combines the latest tools and best practices to help you
+                    continuously deliver high-quality software that meets the
+                    needs of your customers.
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="bd-services-2__item text-center mb-30 wow fadeInUp">
+                <h3 class="bd-services-2__title">
+                  <a href="services-details.html">Project Management</a>
+                </h3>
+                <img src="assets/img/services/proje-yonetimi-egitimi-kapak-768x422.jpg" alt="">
+                <div class="bd-services-2__content">
+                  <p>
+                    Our IT consultancy service helps businesses of all sizes
+                    solve their most complex technology challenges. With a team
+                    of experienced professionals and a wide range of services,
+                    we can provide expert guidance and support on a wide range
+                    of IT issues.
+                  </p>
+
+                  <p>
+                    From strategy and planning to implementation and support, we
+                    can help you navigate the constantly evolving world of
+                    technology. Whether you need help with a specific project or
+                    ongoing support for your entire IT infrastructure, we have
+                    the expertise and resources to help you succeed.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            
+            
+           
+          </div>
+        </div>
+      </div>
+
+     
+    </main>
+    <!-- footer area start -->
+     <!-- footer area start -->
+     <footer>
+      <div class="bd-footer__section theme-bg-2 pt-120">
+        <div class="container">
+          <div class="bd-footer__main pb-50">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="bd-footer-widget footer-col-1">
+                  <div class="bd-footer-widget__title">
+                    <a href="index.html">
+                      <img src="assets/img/logo/logo.png" alt="" />
+                    </a>
+                  </div>
+                  <div>
+                    <p>
+                      Perfecting the Art of Software and Modern Architecture,
+                      Bringing Your Vision to Life
+                    </p>
+                    <p>
+                      <i class="fa fa-map-marker-alt"></i> Türkiye / United
+                      Kingdom
+                    </p>
+                    <br />
+                    <div class="bd-footer-widget__social">
+                      <span
+                        ><a
+                          href="https://www.facebook.com/guisetech"
+                          target="_blank"
+                          ><i class="fab fa-facebook-f"></i></a
+                      ></span>
+                      <span
+                        ><a href="https://twitter.com/guisetech" target="_blank"
+                          ><i class="fab fa-twitter"></i></a
+                      ></span>
+                      <span
+                        ><a href="https://github.com/guisetech/" target="_blank"
+                          ><i class="fab fa-github"></i></a
+                      ></span>
+                      <span
+                        ><a
+                          href="https://www.linkedin.com/in/guisetech/"
+                          target="_blank"
+                          ><i class="fab fa-linkedin"></i></a
+                      ></span>
+                      <span
+                        ><a
+                          href="https://www.instagram.com/guisetechsocial/"
+                          target="_blank"
+                          ><i class="fab fa-instagram"></i></a
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="bd-footer-widget footer-col-4">
+                  <h3 class="bd-footer-widget__title">Quick Links</h3>
+                  <div class="row">
+                    <div class="bd-footer-widget__content col-md-6">
+                      <div class="bd-footer-widget__menu">
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About Us</a></li>
+                          <li><a href="about.html#team">Meet the Team</a></li>
+                          <li><a href="career.html">Career</a></li>
+                          <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="bd-footer-widget__content col-md-6">
+                      <div class="bd-footer-widget__menu">
+                        <ul>
+                          <li>
+                            <a href="projects/software/index.html"
+                              >Software Projects</a
+                            >
+                          </li>
+                          <li>
+                            <a href="projects/architecture/index.html"
+                              >Architecture Projects</a
+                            >
+                          </li>
+                          <li>
+                            <a href="services/software/index.html"
+                              >Software Services</a
+                            >
+                          </li>
+                          <li>
+                            <a href="services/architecture/index.html"
+                              >Architecture Services</a
+                            >
+                          </li>
+                          <li>
+                            <a href="services/architecture/index.html">Blog</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="bd-footer-widget footer-col-3">
+                  <h3 class="bd-footer-widget__title">Recent Posts</h3>
+                  <div id="recentBlogPosts">
+                    <a href="#">
+                      <div
+                        class="bd-footer-widget__blog d-flex align-items-center mb-30"
+                      >
+                        <div
+                          class="bd-footer-widget__blog-thum mr-30 box-shadow-4px"
+                        >
+                          <img
+                            src="assets/img/footer/no_result_tile.jpg"
+                            alt="oops"
+                          />
+                        </div>
+                        <div class="bd-footer-widget__blog-content">
+                          <h3 class="bd-footer-widget__blog-title">
+                            <span> Nothing to show here...</span>
+                          </h3>
+                          <span>Yet...</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bd-footer__copyright bd-border-top pt-40 pb-40">
+            <span>
+              <a href="https://www.guisetech.com/" target="_blank">
+                <span id="date">2023</span> © Guisetech Limited</a
+              >
+              , Registered in Turkiye. Registration Number (VKN): 4111087362.
+              All Right Reserved.
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/waypoints.js"></script>
+    <script src="assets/js/bootstrap-bundle.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/backtotop.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/counterup.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/isotope-pkgd.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/blog.js"></script>
+  </body>
+</html>
