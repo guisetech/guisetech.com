@@ -2069,6 +2069,8 @@ input[type="color"] {
   padding: 40px;
   box-shadow: 0px 3px 36px 0px rgba(6, 6, 6, 0.08);
   position: relative;
+  
+  
 }
 .bd-services-2__item::before {
   content: "";
@@ -2091,15 +2093,18 @@ input[type="color"] {
   left: 0;
 }
 .bd-services-2__icon {
-  width: 60px;
-  height: 60px;
+  
   background-color: var(--bd-grey-1);
   font-size: 25px;
   color: var(--bd-common-black);
   line-height: 60px;
-  border-radius: 50%;
+  border-radius: 50px;
   display: inline-block;
   margin-bottom: 30px;
+  box-shadow:10px 5px 5px #888888 ;
+}
+.bd-services-2 img{
+  box-shadow:10px 5px 5px #888888 ;
 }
 .bd-services-2__title {
   font-size: 24px;
@@ -2122,6 +2127,7 @@ input[type="color"] {
 .bd-services-2__content p {
   margin-bottom: 30px;
   text-align: justify;
+  
 }
 
 .bd-section__inner-list ul li {
@@ -2525,7 +2531,8 @@ input[type="color"] {
 /*  14. PORTFOLIO CSS
 /*----------------------------------------*/
 .bd-portfolio__img img {
-  border-radius: 50%;
+  border-radius: 50px;
+  height: 300px;
 }
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px),
