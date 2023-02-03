@@ -2867,6 +2867,11 @@ input[type="color"] {
 .postbox__meta img {
   margin-right: 5px;
 }
+.postbox__author img{
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px) {
   .postbox__author {

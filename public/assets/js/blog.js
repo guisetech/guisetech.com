@@ -47,6 +47,6 @@ if (blogPostContainerDiv && blogPosts?.length > 0) {
       blogItem.title,
       blogItem.slug,
       blogItem.date
-    );
+    )
   }
 }
