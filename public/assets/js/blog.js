@@ -20,7 +20,7 @@ const blogItemTemplate = (
   title,
   slug,
   date
-) => `<a href="blog/${slug}">
+) => `<a href="${slug}">
 <div class="bd-footer-widget__blog d-flex align-items-center mb-30">
 <div class="bd-footer-widget__blog-thum mr-30 box-shadow-4px border-radius">
   <img class="border-radius"

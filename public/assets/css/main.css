@@ -4076,6 +4076,10 @@ blockquote cite::before {
 
 .contact-info p {
   text-align: justify;
+  margin-bottom: 30px;
+}
+.contact-info {
+  text-align: -webkit-center;
 }
 
 .bd-services-2__item img{
@@ -4083,6 +4087,66 @@ blockquote cite::before {
   width: 150px;
   margin-bottom: 20px;
 }
+.career-item{
+  position: relative;
+  width: 50%;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 300px 300px 5px 5px;
+  
+}
+.career-item:hover{
+ 
+  
+}
+.career-img{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  -webkit-filter: grayscale(100%);
+}
+
+.career-img img{
+  width: 100%;
+    border-radius: 300px;
+    vertical-align: middle;
+    border-style: none;
+}
+.career-text{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+} 
+.career-text h3{
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.career-text p{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  
+}
+.career-email{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 30px 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(79, 132, 196, 0.92);
+  border-radius: 300px 300px 5px 5px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
 
 /*----------------------------------------*/
 /* 16. FOOTER CSS 
