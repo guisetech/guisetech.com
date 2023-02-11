@@ -4164,6 +4164,9 @@ blockquote cite::before {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
+.bd-footer-widget__title img{
+  width: 200px;
+}
 .bd-footer-widget__content p {
   margin-bottom: 30px;
 }
@@ -4323,4 +4326,8 @@ blockquote cite::before {
 
 .text-align-center {
   text-align: center;
+}
+
+.justify-text {
+  text-align: justify;
 }

@@ -3,14 +3,14 @@ const blogPosts = [
     title: "Metaverse Architecture",
     date: new Date(2023, 0, 20),
     slug: "metaverse-architecture.html",
-    imageUrl: "/public/assets/img/footer/metaverse-architecture-tile.jpg",
+    imageUrl: "https://preview.guisetech.com/assets/img/footer/metaverse-architecture-tile.jpg",
     author: "Selin Ozyurt",
   },
   {
     title: "Most Common Css Selectors",
     date: new Date(2023, 0, 07),
     slug: "most-common-css-selectors.html",
-    imageUrl: "/public/assets/img/footer/css-selectors-tile.jpeg",
+    imageUrl: "https://preview.guisetech.com/assets/img/footer/css-selectors-tile.jpeg",
     author: "Onur Rozet",
   },
 ];
@@ -20,7 +20,7 @@ const blogItemTemplate = (
   title,
   slug,
   date
-) => `<a href="/public/blogs/${slug}">
+) => `<a href="blog/${slug}">
 <div class="bd-footer-widget__blog d-flex align-items-center mb-30">
 <div class="bd-footer-widget__blog-thum mr-30 box-shadow-4px border-radius">
   <img class="border-radius"
