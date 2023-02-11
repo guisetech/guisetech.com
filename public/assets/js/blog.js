@@ -3,14 +3,14 @@ const blogPosts = [
     title: "Metaverse Architecture",
     date: new Date(2023, 0, 20),
     slug: "metaverse-architecture.html",
-    imageUrl: "https://preview.guisetech.com/assets/img/footer/metaverse-architecture-tile.jpg",
+    imageUrl: "https://www.guisetech.com/assets/img/footer/metaverse-architecture-tile.jpg",
     author: "Selin Ozyurt",
   },
   {
     title: "Most Common Css Selectors",
     date: new Date(2023, 0, 07),
     slug: "most-common-css-selectors.html",
-    imageUrl: "https://preview.guisetech.com/assets/img/footer/css-selectors-tile.jpeg",
+    imageUrl: "https://www.guisetech.com/assets/img/footer/css-selectors-tile.jpeg",
     author: "Onur Rozet",
   },
 ];
