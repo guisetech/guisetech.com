@@ -2119,8 +2119,14 @@ input[type="color"] {
 .bd-services-2__title a:hover {
   background-size: 0% 1px, 100% 1px;
 }
+
 .bd-services-2__content p {
   margin-bottom: 30px;
+  text-align: justify;
+
+  
+  
+
 }
 
 .bd-section__inner-list ul li {
@@ -4056,6 +4062,15 @@ blockquote cite::before {
 .bd-feature__content p {
   text-align: justify;
 }
+
+.bd-services-2__item img{
+  border-radius: 50px;
+  margin-bottom: 20px;
+  width: 120px;
+
+}
+
+
 
 /*----------------------------------------*/
 /* 16. FOOTER CSS 
