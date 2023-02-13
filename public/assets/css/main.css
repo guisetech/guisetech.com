@@ -4094,6 +4094,7 @@ blockquote cite::before {
   border-radius: 50px;
   width: 150px;
   margin-bottom: 20px;
+  height: 100px;
 }
 .career-item {
   position: relative;
