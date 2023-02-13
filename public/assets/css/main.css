@@ -2065,6 +2065,9 @@ input[type="color"] {
 .bd-services__content p {
   margin-bottom: 30px;
 }
+.web{
+  padding-bottom: 25px;
+}
 
 .bd-services-2__item {
   padding: 40px;
