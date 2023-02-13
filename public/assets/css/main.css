@@ -1430,6 +1430,7 @@ input[type="color"] {
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 1.5;
+  
 }
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px),
@@ -2133,9 +2134,8 @@ input[type="color"] {
   margin-bottom: 20px;
   text-align: justify;
 }
-.web {
-  padding-bottom: 25px;
-}
+
+
 
 .bd-section__inner-list ul li {
   list-style: none;
@@ -4101,7 +4101,6 @@ blockquote cite::before {
   margin-bottom: 20px;
   height: 100px;
 }
-
 .career-item {
   position: relative;
   width: 50%;
@@ -4340,6 +4339,6 @@ blockquote cite::before {
   text-align: center;
 }
 
-.justify-text {
+.text-align-justify {
   text-align: justify;
 }
