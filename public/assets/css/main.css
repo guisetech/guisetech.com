@@ -1430,7 +1430,6 @@ input[type="color"] {
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 1.5;
-  
 }
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px),
@@ -2109,7 +2108,7 @@ input[type="color"] {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 500;
-  margin-bottom: 30px;
+  min-height: 70px;
 }
 .bd-services-2__title a {
   background-image: linear-gradient(#000, #000), linear-gradient(#000, #000);
@@ -2124,11 +2123,9 @@ input[type="color"] {
 }
 
 .bd-services-2__content p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: justify;
 }
-
-
 
 .bd-section__inner-list ul li {
   list-style: none;
@@ -4092,10 +4089,6 @@ blockquote cite::before {
   border-radius: 50px;
   width: 150px;
   margin-bottom: 20px;
-  height: 100px;
-}
-.consept {
-  padding-bottom: 30px;
 }
 .career-item {
   position: relative;
