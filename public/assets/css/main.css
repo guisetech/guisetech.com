@@ -1430,6 +1430,7 @@ input[type="color"] {
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 1.5;
+  
 }
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px),
@@ -2124,6 +2125,10 @@ input[type="color"] {
 
 .bd-services-2__content p {
   margin-bottom: 30px;
+  text-align: justify;
+}
+
+.justify{
   text-align: justify;
 }
 
