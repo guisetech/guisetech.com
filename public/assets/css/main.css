@@ -4091,8 +4091,7 @@ blockquote cite::before {
   margin-bottom: 20px;
   height: 100px;
 }
-.consept{
-  
+.consept {
   padding-bottom: 30px;
 }
 .career-item {
@@ -4169,7 +4168,7 @@ blockquote cite::before {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
-.bd-footer-widget__title img{
+.bd-footer-widget__title img {
   width: 200px;
 }
 .bd-footer-widget__content p {
