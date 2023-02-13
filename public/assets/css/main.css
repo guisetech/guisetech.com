@@ -1430,6 +1430,7 @@ input[type="color"] {
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 1.5;
+  
 }
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px),
@@ -2126,6 +2127,8 @@ input[type="color"] {
   margin-bottom: 30px;
   text-align: justify;
 }
+
+
 
 .bd-section__inner-list ul li {
   list-style: none;
@@ -4332,6 +4335,6 @@ blockquote cite::before {
   text-align: center;
 }
 
-.justify-text {
+.text-align-justify {
   text-align: justify;
 }
