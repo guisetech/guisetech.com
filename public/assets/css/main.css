@@ -2121,20 +2121,18 @@ input[type="color"] {
 .bd-services-2__title a:hover {
   background-size: 0% 1px, 100% 1px;
 }
-.devops-title{
+.devops-title {
   padding-bottom: 20px;
-
 }
-.devops-content{
+.devops-content {
   padding-top: 35px;
 }
 
 .bd-services-2__content p {
   margin-bottom: 20px;
   text-align: justify;
-  
 }
-.web{
+.web {
   padding-bottom: 20px;
 }
 
@@ -4099,13 +4097,10 @@ blockquote cite::before {
 .bd-services-2__item img {
   border-radius: 50px;
   width: 150px;
-  
-  
-  
+  margin-bottom: 20px;
+  height: 100px;
 }
 
-  
-  
 .career-item {
   position: relative;
   width: 50%;
@@ -4180,7 +4175,7 @@ blockquote cite::before {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
-.bd-footer-widget__title img{
+.bd-footer-widget__title img {
   width: 200px;
 }
 .bd-footer-widget__content p {
