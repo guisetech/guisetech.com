@@ -2122,18 +2122,19 @@ input[type="color"] {
   background-size: 0% 1px, 100% 1px;
 }
 .devops-title {
-  padding-bottom: 20px;
+  height: 50px;
 }
 .devops-content {
-  padding-top: 35px;
+  padding-top: 18px;
 }
+
 
 .bd-services-2__content p {
   margin-bottom: 20px;
   text-align: justify;
 }
 .web {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 .bd-section__inner-list ul li {
