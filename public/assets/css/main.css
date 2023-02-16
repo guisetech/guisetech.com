@@ -2108,7 +2108,7 @@ input[type="color"] {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 500;
-  margin-bottom: 30px;
+  min-height: 70px;
 }
 .bd-services-2__title a {
   background-image: linear-gradient(#000, #000), linear-gradient(#000, #000);
@@ -2123,7 +2123,7 @@ input[type="color"] {
 }
 
 .bd-services-2__content p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: justify;
 }
 
@@ -4164,7 +4164,7 @@ blockquote cite::before {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
-.bd-footer-widget__title img{
+.bd-footer-widget__title img {
   width: 200px;
 }
 .bd-footer-widget__content p {
@@ -4328,6 +4328,6 @@ blockquote cite::before {
   text-align: center;
 }
 
-.justify-text {
+.text-align-justify {
   text-align: justify;
 }
