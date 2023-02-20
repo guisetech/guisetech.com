@@ -4050,6 +4050,65 @@ blockquote cite::before {
 /*--------------------*/
 /*----MyChanges-----*/
 
+.about{
+  padding: 100px 0 60px;
+  position: relative;
+  width: 100%;
+  display: block;
+ 
+  
+  
+}
+.about img{
+  max-width: 100%;
+  border-radius: 0 30px 30px 0;
+}
+
+
+.about a.btn{
+  padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient( 90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100% );
+    transition: 0.5s;
+}
+
+
+.about a.btn:hover{
+  background: linear-gradient(90deg, rgb(0,212,255,1) 0%,rgb(39, 39, 125) 35%,rgb(7, 7, 152) 100%);
+  transition: 0.5s;
+}
+
+
+
+
+
+
+.about h2.section-title{
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.about p{
+  color: #213546;
+  font-size: 18px;
+
+  margin-bottom: 30px;
+  text-align: justify;
+  box-sizing: border-box;
+  padding-right: 30px;
+  font-family: "Raleway",sans-serif;
+
+}
+
 .social a {
   display: inline-block;
   width: 40px;
