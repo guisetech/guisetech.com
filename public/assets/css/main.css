@@ -2961,6 +2961,11 @@ input[type="color"] {
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.09);
   background: var(--bd-common-white);
 }
+
+.postbox__comment-form > img {
+  width: -webkit-fill-available;
+}
+
 @media (max-width: 575px),
   only screen and (min-width: 576px) and (max-width: 767px) {
   .postbox__comment-form {
