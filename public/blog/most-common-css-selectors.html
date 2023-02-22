@@ -348,7 +348,12 @@
                         image.
                       </p>
 
-                      <p><img src="../assets/img/blog/CSS-Keylogger.jpeg" alt="CSS" /></p>
+                      <p>
+                        <img
+                          src="../assets/img/blog/CSS-Keylogger.jpeg"
+                          alt="CSS"
+                        />
+                      </p>
 
                       <h4>What are CSS Selectors? How Do They Do It?</h4>
                       <br />
@@ -427,27 +432,28 @@
                         This selector will select element with the id
                         <b>"my-id"</b> and apply the styles to that specific
                         element. It is recommended to use id selectors only when
-                        there is a single unique element on the page that must be
-                        selected, as they have higher specificity than class
+                        there is a single unique element on the page that must
+                        be selected, as they have higher specificity than class
                         selectors and can override styles applied to a class
                       </p>
-  
+
                       <h4>The CSS Class Selector</h4>
-  
+
                       <p class="justify-text">
                         The CSS Class Selector selects elements by their class
                         attribute. The syntax for a class selector is a
-                        <b>"."</b> symbol followed by the class value, like this:
+                        <b>"."</b> symbol followed by the class value, like
+                        this:
                         <br />
                         <code> .my-class { /* styles here */ } </code>
                       </p>
                       <p class="justify-text">
                         This selector will select all elements with the class
-                        <b>"my-class"</b> and apply the styles to those elements.
-                        Multiple elements can have the same class, this is why
-                        class selectors are useful when you want to apply styles
-                        to multiple elements that share the same design
-                        characteristics.
+                        <b>"my-class"</b> and apply the styles to those
+                        elements. Multiple elements can have the same class,
+                        this is why class selectors are useful when you want to
+                        apply styles to multiple elements that share the same
+                        design characteristics.
                         <br />
                         <code>
                           &lt;p class="my-class">This is a paragraph&lt;/p&gt;
@@ -458,178 +464,188 @@
                       <p class="justify-text">
                         With this css class selector <b>".my-class"</b> will
                         select both <var>&lt;p&gt;</var> and
-                        <var>&lt;div&gt;</var> elements and apply the same styles
-                        to both of them. It's also possible to use class selectors
-                        along with element selectors, like this: <br />
+                        <var>&lt;div&gt;</var> elements and apply the same
+                        styles to both of them. It's also possible to use class
+                        selectors along with element selectors, like this:
+                        <br />
                         <code> p.my-class { /* styles here */ } </code>
                       </p>
                       <p class="justify-text">
-                        This selector will select only &lt;p&gt; elements with the
-                        class <b>"my-class"</b> and apply the styles to those
-                        specific elements. The CSS class selector has less
+                        This selector will select only &lt;p&gt; elements with
+                        the class <b>"my-class"</b> and apply the styles to
+                        those specific elements. The CSS class selector has less
                         specificity than an id selector, so if an id and class
-                        selector both target the same element, the styles from the
-                        id selector will take precedence.
+                        selector both target the same element, the styles from
+                        the id selector will take precedence.
                       </p>
-  
+
                       <h4>The CSS Universal Selector</h4>
-  
+
                       <p class="justify-text">
-                        The CSS Universal Selector, represented by an asterisk (),
-                        selects all elements on a page. This selector is useful
-                        when you want to apply styles to all elements, regardless
-                        of their tag name, class, or id. The syntax for the
-                        universal selector is an asterisk (), like this: <br>
-                        <code>
-                          * { /*
-                            styles here */ } 
-                        </code> <br>
-                        This selector will select all elements on
-                        the page and apply the styles to them. It can also be used
-                        along with other selectors to select all elements within a
-                        specific element or class. For example, <br>
-                        <code>
-                          #my-id * { /*
-                            styles here */ }
-                        </code> <br>
-                         This selector will select all elements
-                        within the element with the id <b>"my-id"</b> and apply the
-                        styles to them. <br>
-                        <code>
-                          .my-class * { /* styles here */ }
-                        </code> <br>
-                         This
-                        selector will select all elements within the elements with
-                        the class <b>"my-class"</b> and apply the styles to them. It's
-                        important to note that the universal selector has the
-                        lowest specificity among all selectors, so any styles
-                        applied using this selector can be overridden by more
-                        specific selectors.
+                        The CSS Universal Selector, represented by an asterisk
+                        (), selects all elements on a page. This selector is
+                        useful when you want to apply styles to all elements,
+                        regardless of their tag name, class, or id. The syntax
+                        for the universal selector is an asterisk (), like this:
+                        <br />
+                        <code> * { /* styles here */ } </code> <br />
+                        This selector will select all elements on the page and
+                        apply the styles to them. It can also be used along with
+                        other selectors to select all elements within a specific
+                        element or class. For example, <br />
+                        <code> #my-id * { /* styles here */ } </code> <br />
+                        This selector will select all elements within the
+                        element with the id <b>"my-id"</b> and apply the styles
+                        to them. <br />
+                        <code> .my-class * { /* styles here */ } </code> <br />
+                        This selector will select all elements within the
+                        elements with the class <b>"my-class"</b> and apply the
+                        styles to them. It's important to note that the
+                        universal selector has the lowest specificity among all
+                        selectors, so any styles applied using this selector can
+                        be overridden by more specific selectors.
                       </p>
-  
-                      <br>
-                      <p><img src="../assets/img/blog/coding-html-css.jpg" alt="CSS" /></p>
-                      <br>
-  
+
+                      <br />
+                      <p>
+                        <img
+                          src="../assets/img/blog/coding-html-css.jpg"
+                          alt="CSS"
+                        />
+                      </p>
+                      <br />
+
                       <h4>CSS Combinators</h4>
-  
                       <p class="justify-text">
                         There are four different combinators in CSS:
-                        <ul>
-                          <li>Descendant selector (space)</li>
-                          <li>Child selector (>)</li>
-                          <li>Adjacent sibling selector (+)</li>
-                          <li>General sibling selector (~)</li>
-                        </ul>
                       </p>
-                      <br>
-  
+                      <ul>
+                        <li>Descendant selector (space)</li>
+                        <li>Child selector (>)</li>
+                        <li>Adjacent sibling selector (+)</li>
+                        <li>General sibling selector (~)</li>
+                      </ul>
+
+                      <br />
+
                       <h5>Descendant Selector</h5>
-  
-                     <p class="justify-text">
-                      The CSS Descendant Selector, also known as a <b>"contextual selector,"</b> selects elements that are descendants <var>(i.e., children, grandchildren, etc.)</var> of a specific ancestor element. The syntax for a descendant selector is a combination of an ancestor element selector and a descendant element selector separated by a space, like this: <br>
-                      <code>
-                        div p {
-                          /* styles here */
-                        }
-                        
-                      </code>
-                     </p>
-  
-                     <p class="justify-text">This selector will select all &lt;p&gt; elements that are descendants of &lt;div&gt; elements and apply the styles to them.
-                      You can also chain multiple descendant selectors together to select elements that are nested several levels deep. <br>
-                      <code>
-                        div p span {
-                          /* styles here */
-                        }
-                      </code> <br>
-                      
-                      This selector will select all &lt;span&gt; elements that are descendants of &lt;p&gt; elements, which in turn are descendants of &lt;div&gt; elements.
-                      It's important to note that descendant selectors are more specific than element selectors, but less specific than class selectors or id selectors.
-                     </p>
-  
-  
-                       <h5>Child Selector</h5>
-                       <br>
-                       <p class="justify-text">
-                        The CSS Child Selector, also known as a <var>"direct descendant selector,"</var> selects elements that are direct children of a specific ancestor element. The syntax for a child selector is a combination of an ancestor element selector and a child element selector separated by a ">" symbol, like this: <br>
-                        <code>
-                          div > p {
-                            /* styles here */
-                          }
-                          
-                        </code> <br>
-  
-                       </p>
-  
-                       <h5>Adjacent Sibling Selector</h5>
-                       <br>
-                       <p class="justify-text">
-                        The CSS Adjacent Sibling Selector selects elements that are immediately preceded by a specific element. The syntax for an adjacent sibling selector is a combination of the preceding element selector and the targeted element selector separated by a <kbd>"+"</kbd> symbol, like this: <br> 
-                        <code>
-                          p + span {
-                            /* styles here */
-                          }
-                          
-                        </code> <br>
-                        This selector will select all &lt;span&gt; elements that are immediately preceded by a &lt;p&gt; element and apply the styles to them.
-                          <br>
+                      <p class="justify-text">
+                        The CSS Descendant Selector, also known as a
+                        <b>"contextual selector,"</b> selects elements that are
+                        descendants
+                        <var>(i.e., children, grandchildren, etc.)</var> of a
+                        specific ancestor element. The syntax for a descendant
+                        selector is a combination of an ancestor element
+                        selector and a descendant element selector separated by
+                        a space, like this: <br />
+                        <code> div p { /* styles here */ } </code>
+                      </p>
+
+                      <p class="justify-text">
+                        This selector will select all &lt;p&gt; elements that
+                        are descendants of &lt;div&gt; elements and apply the
+                        styles to them. You can also chain multiple descendant
+                        selectors together to select elements that are nested
+                        several levels deep. <br />
+                        <code> div p span { /* styles here */ } </code> <br />
+
+                        This selector will select all &lt;span&gt; elements that
+                        are descendants of &lt;p&gt; elements, which in turn are
+                        descendants of &lt;div&gt; elements. It's important to
+                        note that descendant selectors are more specific than
+                        element selectors, but less specific than class
+                        selectors or id selectors.
+                      </p>
+
+                      <h5>Child Selector</h5>
+                      <br />
+                      <p class="justify-text">
+                        The CSS Child Selector, also known as a
+                        <var>"direct descendant selector,"</var> selects
+                        elements that are direct children of a specific ancestor
+                        element. The syntax for a child selector is a
+                        combination of an ancestor element selector and a child
+                        element selector separated by a ">" symbol, like this:
+                        <br />
+                        <code> div > p { /* styles here */ } </code> <br />
+                      </p>
+
+                      <h5>Adjacent Sibling Selector</h5>
+                      <br />
+                      <p class="justify-text">
+                        The CSS Adjacent Sibling Selector selects elements that
+                        are immediately preceded by a specific element. The
+                        syntax for an adjacent sibling selector is a combination
+                        of the preceding element selector and the targeted
+                        element selector separated by a <kbd>"+"</kbd> symbol,
+                        like this: <br />
+                        <code> p + span { /* styles here */ } </code> <br />
+                        This selector will select all &lt;span&gt; elements that
+                        are immediately preceded by a &lt;p&gt; element and
+                        apply the styles to them.
+                        <br />
                         <code>
                           &lt;p>This is a paragraph&lt;/p&gt;
                           <br />
                           &lt;span>This is a span &lt;/span&gt;
-                        </code> <br>
-                        In this example the &lt;span> element will be selected and the styles will be applied.
-                          It's important to note that the preceding element must be on the same level of the DOM tree as the targeted element, not nested inside another element, and the two elements must be siblings.
-                          Adjacent sibling selectors are useful when you want to apply styles to an element based on the presence or absence of a specific preceding element.
-                          It's also important to note that adjacent sibling selectors are less specific than class selectors or id selectors, so styles applied using this selector can be overridden by more specific selectors.
-                          
-                       </p>
-  
-                       <br>
-  
-                       <h5>
-                        General Sibling Selector
-                       </h5>
-                       <br>
-                       <p class="justify-text">
-                        The CSS General Sibling Selector selects elements that have the same parent as a specific element and come after it in the document flow. The syntax for a general sibling selector is a combination of the preceding element selector and the targeted element selector separated by a <kbd>"~"</kbd> symbol, like this:
-                       </p>
-                       <br>
-                       <code>
-                        p ~ span {
-                          /* styles here */
-                        }
-                       </code>
-                        
-  
-                       <br>
-                       <br>
-  
-                       <h5>CSS [attribute] Selector</h5>
-                       <br>
-                       <p class="justify-text">
-                        The CSS [attribute] Selector selects elements based on the presence or value of a specific attribute. The syntax for an attribute selector is the attribute name within square brackets, like this: <br>
-                        <code>
-                          input[type="text"] {
-                            /* styles here */
-                          }
-                          
                         </code>
+                        <br />
+                        In this example the &lt;span> element will be selected
+                        and the styles will be applied. It's important to note
+                        that the preceding element must be on the same level of
+                        the DOM tree as the targeted element, not nested inside
+                        another element, and the two elements must be siblings.
+                        Adjacent sibling selectors are useful when you want to
+                        apply styles to an element based on the presence or
+                        absence of a specific preceding element. It's also
+                        important to note that adjacent sibling selectors are
+                        less specific than class selectors or id selectors, so
+                        styles applied using this selector can be overridden by
+                        more specific selectors.
+                      </p>
 
-                        This selector will select all &lt;input> elements with the attribute "type" set to "text" and apply the styles to them. <br>
-                        <var> &lt;input type="text" placeholder="Enter your name"&gt; </var>
-                        <br>
+                      <br />
 
-                        In this example, the &lt;input> element will be selected and the styles will be applied to it.
-                        <br><br>
-                        See you in another post. Goodbye  👋
-                       </p>
+                      <h5>General Sibling Selector</h5>
+                      <br />
+                      <p class="justify-text">
+                        The CSS General Sibling Selector selects elements that
+                        have the same parent as a specific element and come
+                        after it in the document flow. The syntax for a general
+                        sibling selector is a combination of the preceding
+                        element selector and the targeted element selector
+                        separated by a <kbd>"~"</kbd> symbol, like this:
+                      </p>
+                      <br />
+                      <code> p ~ span { /* styles here */ } </code>
+
+                      <br />
+                      <br />
+
+                      <h5>CSS [attribute] Selector</h5>
+                      <br />
+                      <p class="justify-text">
+                        The CSS [attribute] Selector selects elements based on
+                        the presence or value of a specific attribute. The
+                        syntax for an attribute selector is the attribute name
+                        within square brackets, like this: <br />
+                        <code> input[type="text"] { /* styles here */ } </code>
+
+                        This selector will select all &lt;input> elements with
+                        the attribute "type" set to "text" and apply the styles
+                        to them. <br />
+                        <var>
+                          &lt;input type="text" placeholder="Enter your
+                          name"&gt;
+                        </var>
+                        <br />
+
+                        In this example, the &lt;input> element will be selected
+                        and the styles will be applied to it.
+                        <br /><br />
+                        See you in another post. Goodbye 👋
+                      </p>
                     </div>
-
-                    
-
-
 
                     <div class="postbox__tag tagcloud">
                       <span>Post Tags :</span>
@@ -723,9 +739,7 @@
     </main>
 
     <!-- footer area start -->
-    <footer id="footer">
-      
-    </footer>
+    <footer id="footer"></footer>
     <!-- footer area end -->
 
     <!-- JS here -->
@@ -743,6 +757,6 @@
     <script src="../assets/js/imagesloaded-pkgd.js"></script>
     <script src="../assets/js/ajax-form.js"></script>
     <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/blog.js"></script>
+    <script src="../assets/js/footer.js"></script>
   </body>
 </html>
