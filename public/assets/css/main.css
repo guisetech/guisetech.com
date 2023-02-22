@@ -2702,7 +2702,7 @@ input[type="color"] {
 }
 
 .pt-inner-sidebar .btn{
-  padding: 10px 35px;
+  padding: 10px 20px;
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
@@ -2982,7 +2982,7 @@ input[type="color"] {
 .postbox__comment-form img{
 
   width: 650px;
-  height: 600px;
+  height: 555px;
 
 
 } 
